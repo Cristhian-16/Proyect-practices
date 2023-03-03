@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: white;
+}
+
+img {
+    display: block;
+}
+
+.img-01 {
+    position: absolute;
+    z-index: -1;
+    width: 84%;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.section-01 {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: space-between;
+
+}
+
+.img-02 {
+    margin-top: 50px;
+    width: 250px;
+}
+
+.img-02:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.img-03:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.04);
+}
+
+
+.section-2 {
+    margin-top: 240px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    line-height: 1.5;
+    gap: 10px;
+}
+
+.section-2 h1 {
+    font-size: 60px;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.section-2 p {
+    font-size: 25px;
+    margin: 0;
+    font-family: Open Sans;
+}
+
+
+.section-2 a {
+    text-decoration: none;
+    background-color: hsl(180, 66%, 49%);
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 250px;
+    font-family: Open Sans;
+    background-color: white;
+}
+
+.section-2 a:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.04);
+}
